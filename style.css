@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    cursor: none
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+.container-text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-size: 120px;
+    transform: translate(-50%, -50%);
+
+}
